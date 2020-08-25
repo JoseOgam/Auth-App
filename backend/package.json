@@ -4,8 +4,15 @@
   "description": "application's backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
   },
   "author": "Joseph",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4"
+  }
 }
